@@ -2,9 +2,15 @@
 
 ```bash
 brew tap kodymike/helmwart
+brew trust kodymike/helmwart
 brew install helmwart
 helmwart --version
 ```
+
+The `brew trust` line is not optional. Homebrew 6 refuses to load a formula
+from a third-party tap until you say you trust it — without it `brew install`
+stops with *"Refusing to load formula … from untrusted tap"*. It is asked once
+per tap.
 
 `helmwart` is design-time threat modeling for agentic-AI systems, in your CI. It
 reads a real agent config — MCP, n8n, LangGraph, CrewAI and more — and reports
