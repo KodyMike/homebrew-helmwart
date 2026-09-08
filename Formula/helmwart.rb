@@ -18,28 +18,28 @@
 class Helmwart < Formula
   desc "Design-time threat modeling for agentic-AI systems, in your CI"
   homepage "https://helmwart.com/cli/"
-  version "0.5.3"
+  version "0.5.4"
   license :cannot_represent # proprietary, free to use — see LICENSE
 
   on_macos do
     on_arm do
-      url "https://registry.npmjs.org/@helmwart/cli-darwin-arm64/-/cli-darwin-arm64-0.5.3.tgz"
-      sha256 "4debbdbccd5eb9c39ef45b58f46d8ca762a8fac39ffd9722ae399c96776396b3"
+      url "https://registry.npmjs.org/@helmwart/cli-darwin-arm64/-/cli-darwin-arm64-0.5.4.tgz"
+      sha256 "136d9ea53cf7daa7c6cf7ffc850de206f77341dd7430d4d601fb0a519883e972"
     end
     on_intel do
-      url "https://registry.npmjs.org/@helmwart/cli-darwin-x64/-/cli-darwin-x64-0.5.3.tgz"
-      sha256 "4cfdcd0f2e414ffbb280504756330ce76fa0c30e3e42e38b9fe0f834207c0189"
+      url "https://registry.npmjs.org/@helmwart/cli-darwin-x64/-/cli-darwin-x64-0.5.4.tgz"
+      sha256 "a16cd9cf3036f7e1a8f87b8c58033209f8f0345ba3cee4a0d75d396db019842c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://registry.npmjs.org/@helmwart/cli-linux-arm64/-/cli-linux-arm64-0.5.3.tgz"
-      sha256 "eb372dc0f1c889404002a45bcea5d71cbb3ec6821c572bd21c89b3307b1c6e3f"
+      url "https://registry.npmjs.org/@helmwart/cli-linux-arm64/-/cli-linux-arm64-0.5.4.tgz"
+      sha256 "80ce2130076bc09ffe7cc6c8b66e1fbebaabdb640754cbb6a6e3914c2df7b222"
     end
     on_intel do
-      url "https://registry.npmjs.org/@helmwart/cli-linux-x64/-/cli-linux-x64-0.5.3.tgz"
-      sha256 "747dfc5fcdb2c73ad75e67a04a7ff2f15429bf0ad53251d342d8b96a5ca0ff01"
+      url "https://registry.npmjs.org/@helmwart/cli-linux-x64/-/cli-linux-x64-0.5.4.tgz"
+      sha256 "7d5f23bc82e1606324cc9fb1da77ef28538f7f22973104f6c740d288d58a9c5c"
     end
   end
 
